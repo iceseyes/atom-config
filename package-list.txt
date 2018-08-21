@@ -1,0 +1,14 @@
+atom-hg@2.0.14
+atom-rtags-plus@1.4.2
+autocomplete-cmake@0.3.1
+build@0.70.0
+build-cmake@0.12.0
+busy-signal@1.4.3
+clang-format@1.30.0
+hyperclick@0.1.5
+intentions@1.1.5
+jsformat@0.9.3
+language-cmake@1.1.0
+linter@2.2.0
+linter-ui-default@1.7.1
+

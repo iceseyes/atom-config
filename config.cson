@@ -1,0 +1,35 @@
+"*":
+  "atom-rtags-plus":
+    liveParseFileTypes: [
+      "source.cpp"
+      "source.c"
+      "source.h"
+      "source.hpp"
+      "source.hh"
+      "source.cc"
+    ]
+    rdmCommand: "rdm"
+  "atomic-rtags":
+    rdmAutoSpawn: false
+  build:
+    panelVisibility: "Keep Visible"
+    refreshOnShowTargetList: true
+    saveOnBuild: true
+    scrollOnError: true
+  "build-cmake":
+    buildCommandArgs: "-j4"
+    buildRoot: "${projectDir}/build/${name}"
+  "clang-format":
+    executable: "clang-format-5.0"
+    fallbackStyle: "none"
+    formatCOnSave: true
+    formatCPlusPlusOnSave: true
+  core:
+    packagesWithKeymapsDisabled: [
+      "atom-rtags-plus"
+    ]
+    telemetryConsent: "limited"
+  "exception-reporting":
+    userId: "11377571-cc7c-4b8b-9b97-e3790c641041"
+  welcome:
+    showOnStartup: false
